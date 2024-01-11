@@ -1,38 +1,36 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pokedex</title>
-    <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./assets/css/container.css">
 </head>
+
 <body>
     <div id="container">
-    <header id="pageheader">
-        <img src="" alt="pokedex" id="ph__logo">
-        <h1 id="ph__title">Pokedex</h1>
-    </header>
-
-    <main id="containetmain">
-        <section id="pokemonscontainer">
-            <ul class="pc__list">
-            <div class="pc__card electric">
-                <header class="pc__headercontaimer">
-                <h2 class="pc__name">Bulbassaur</h2>
-                <p class="pc__id">1</p>
-                </header>
-                <div class="pc__types">
-                    <span class="pc__type">
-                        <p class="pc__type-text">grass</p>
-                    </span>
-                </div>
-                <img src="https://google.com" alt="pokemon " class="pc__img">
+        <header id="pageheader">
+            <div id="ph__container">
+                <img src="./assets/img/logo.png" alt="pokedex" id="ph__logo">
+                <h1 id="ph__title">Pokédex</h1>
             </div>
-            </ul>
-        </section>
-    </main>
+        </header>
+
+        <main id="containermain">
+            <section id="pokemonscontainer">
+                <ul id="pc__list">
+
+                    <!-- All the pokemons have been created at ./assets/js/dom.js -->
+
+                </ul>
+                <button type="button" id="pc__loadMore">Load More</button>
+            </section>
+        </main>
 
     </div>
+
+    <script src="./assets/js/main.js" type="module"></script>
 </body>
+
 </html>
