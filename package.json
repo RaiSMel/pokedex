@@ -1,0 +1,13 @@
+{
+  "name": "pokedex",
+  "version": "1.0.0",
+  "description": "https://raismel.github.io/pokedex/",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "push": "git add . && git status && git commit -m'v1.2' && git status && git push -u origin main"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

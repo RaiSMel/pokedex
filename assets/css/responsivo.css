@@ -15,8 +15,8 @@
         width: calc(33% - 5px);
     }
 
-    .model{
-        
+    #container-modal{
+        width: 100vw;
     }
 }
 

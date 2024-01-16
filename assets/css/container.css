@@ -1,7 +1,7 @@
 @import url(reset.css);
 @import url(pokemons.css);
-@import url(responsivo.css);
 @import url(modal.css);
+@import url(responsivo.css);
 
 @font-face {
     font-family: Pokemon;

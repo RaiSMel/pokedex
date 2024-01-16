@@ -31,19 +31,14 @@ const modalPokemon = (res) => {
 const createModal = (res) => {
     modalPokemon(createPokemonModal(res))
     const modal = document.querySelector('#container-modal');
-    modal.setAttribute('style', `
-        width: 400px;
-        top: ${window.scrollY}px;
-    `)
+    modal.style = `display: flex;
+                   top: ${window.scrollY}px;`
     document.body.style.overflow = "hidden";
 }
 
 dom.closeModal = () => {
     const modal = document.querySelector('#container-modal');
-    modal.setAttribute('style', `
-        width: 0;
-        
-    `)
+    modal.style = 'display: none;';
     document.body.style.overflow = "auto";
 }
 
