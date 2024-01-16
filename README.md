@@ -7,7 +7,7 @@
 ![Bitbucket open issues](https://img.shields.io/bitbucket/issues/raismel/pokedex?style=for-the-badge)
 ![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/raismel/pokedex?style=for-the-badge)
 
-<img src="imagem.png" alt="Exemplo imagem">
+![image](https://github.com/RaiSMel/pokedex/assets/93801960/b9c49a40-369a-41b1-8e4f-3b641d6390fa)
 
 > This project has the initial porpuse to share with you guys the pokemons and the commum pokemon stats, the list can drop down over +1000 pokemons. 
 
