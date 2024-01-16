@@ -42,6 +42,15 @@ dom.closeModal = () => {
     document.body.style.overflow = "auto";
 }
 
+dom.showModal = () => {
+    const modal = document.querySelector('#container-modal');
+    modal.style = `display: flex;`;
+}
+
+dom.checkKey = (e)  => {
+    e.key == "Escape" ? dom.closeModal() : dom.showModal() ;
+}
+
 
 dom.createPokemonLi = (pokemon) => {
     const pokemonLi = document.createElement("li");

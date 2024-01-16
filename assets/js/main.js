@@ -24,4 +24,6 @@ buttonLoadMore.addEventListener('click', () => {
 
 modalClose.addEventListener('click', dom.closeModal)
 
+document.onkeydown = dom.checkKey;
+
 export default createPokemons;
