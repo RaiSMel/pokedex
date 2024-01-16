@@ -61,7 +61,7 @@ Appreciate the collaboratos of the project :
   <tr>
     <td align="center">
       <a href="#" title="defina o titulo do link">
-        <img src="https://avatars.githubusercontent.com/u/93801960?v=4" width="100px;" alt="Foto do Iuri Silva no GitHub" style="border-radius: 50%"/><br>
+        <img src="https://avatars.githubusercontent.com/u/93801960?v=4" width="100px;" alt="Foto do Iuri Silva no GitHub" style="border-radius: 50%;"/><br>
         <sub>
           <b>Rai da S. Mello</b>
         </sub>
