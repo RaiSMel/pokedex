@@ -1,3 +1,8 @@
+<style>
+  .redondo{
+    border-radius: 50%;
+  }
+</style>
 
 # Pokedex
 
@@ -56,11 +61,7 @@ As a alternative, consult the docs on github [How to create a pull request](http
 
 Appreciate the collaboratos of the project :
 
-<style>
-  .redondo{
-    border-radius: 50%;
-  }
-</style>
+
 <table>
   <tr>
     <td align="center">
