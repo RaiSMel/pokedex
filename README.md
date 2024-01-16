@@ -1,4 +1,3 @@
-
 # Pokedex
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/raismel/pokedex?style=for-the-badge)
@@ -38,7 +37,7 @@ To contribute Pokedex, follow the steps ahead:
 ``` 
 git checkout -b <nome_branch> 
 ```
-3. Then make the changes and save: 
+3. Then make the changes (dont forget to place yourself as a collaborator on the readme.md) and save: 
 ```
 git commit -m '<mensagem_commit>'
 ```
@@ -51,8 +50,7 @@ git push origin <nome_do_projeto> / <local>
 As a alternative, consult the docs on github [How to create a pull request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request).
 
 
-
-## 🤝 Colaborators
+## 🤝 Collaborators
 
 Appreciate the collaboratos of the project :
 
@@ -61,7 +59,7 @@ Appreciate the collaboratos of the project :
   <tr>
     <td align="center">
       <a href="#" title="defina o titulo do link">
-        <img src="https://avatars.githubusercontent.com/u/93801960?v=4" width="100px;" alt="Foto do Iuri Silva no GitHub" style="border-radius: 50%;"/><br>
+        <img src="https://avatars.githubusercontent.com/u/93801960?v=4" width="100px;" alt="Foto do Iuri Silva no GitHub" class="redondo"/><br>
         <sub>
           <b>Rai da S. Mello</b>
         </sub>
