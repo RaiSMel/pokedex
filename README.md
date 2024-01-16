@@ -56,12 +56,16 @@ As a alternative, consult the docs on github [How to create a pull request](http
 
 Appreciate the collaboratos of the project :
 
-
+<style>
+  .redondo{
+    border-radius: 50%;
+  }
+</style>
 <table>
   <tr>
     <td align="center">
       <a href="#" title="defina o titulo do link">
-        <img src="https://avatars.githubusercontent.com/u/93801960?v=4" width="100px;" alt="Foto do Iuri Silva no GitHub" style="border-radius: 50%;"/><br>
+        <img src="https://avatars.githubusercontent.com/u/93801960?v=4" width="100px;" alt="Foto do Iuri Silva no GitHub" class="redondo"/><br>
         <sub>
           <b>Rai da S. Mello</b>
         </sub>
