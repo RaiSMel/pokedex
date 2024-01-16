@@ -37,7 +37,7 @@ To contribute Pokedex, follow the steps ahead:
 ``` 
 git checkout -b <nome_branch> 
 ```
-3. Then make the changes and save: 
+3. Then make the changes (dont forget to place yourself as a collaborator on the readme.md) and save: 
 ```
 git commit -m '<mensagem_commit>'
 ```
@@ -50,8 +50,7 @@ git push origin <nome_do_projeto> / <local>
 As a alternative, consult the docs on github [How to create a pull request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request).
 
 
-
-## 🤝 Colaborators
+## 🤝 Collaborators
 
 Appreciate the collaboratos of the project :
 
