@@ -3,7 +3,8 @@ import createPokemon from "./pokemon.js";
 import api from "./request-api.js";
 
 const buttonLoadMore = document.getElementById('pc__loadMore');
-const limit = 5;
+const modalClose = document.querySelector('.modal__close');
+const limit = 20;
 let offset = 0;
 
 const createPokemons = () => {
@@ -18,5 +19,9 @@ createPokemons(offset, limit);
 
 buttonLoadMore.addEventListener('click', () => {
     offset += limit;
-    createPokemons(offset, limit)
+    createPokemons(offset, limit);
 })
+
+modalClose.addEventListener('click', dom.closeModal)
+
+export default createPokemons;

@@ -1,9 +1,22 @@
 @import url(reset.css);
 @import url(pokemons.css);
 @import url(responsivo.css);
+@import url(modal.css);
+
+@font-face {
+    font-family: Pokemon;
+    src: url(./../fonts/Ketchum.otf);
+}
+
+@keyframes showUp {
+    to{
+        width: 265px;
+    }
+}
 
 #container {
     max-width: 100vw;
+    overflow: hidden;
 }
 
 #pageheader {
@@ -29,7 +42,12 @@
 }
 
 #ph__title {
-    font-size: 1.5rem;
+    color: #ffcc01;
+    font-size: 2rem;
+    font-family: Pokemon;
+    -webkit-text-stroke: 1px #3363ae;
+
+    width: 0;
     margin-left: 10px;
 }
 
@@ -40,6 +58,22 @@
 #pokemonscontainer {
     display: flex;
     flex-direction: column;
+    row-gap: 40px;
+}
+
+#pc__title{
+    color: #ffcc01;
+    font-size: 64px;
+    font-family: Pokemon;
+    -webkit-text-stroke: 1px #3363ae;
+
+    text-align: center;
+    margin: 0 auto;
+    width: 0;
+    
+    overflow: hidden;
+    transition: 3s all ease-in; 
+    animation: showUp 2s forwards;
 }
 
 #pc__list {

@@ -6,19 +6,78 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pokedex</title>
     <link rel="stylesheet" href="./assets/css/container.css">
+    <link rel="shortcut icon" href="./assets/img/logo.png" type="image/x-icon">
 </head>
 
 <body>
+    <div id="container-modal">
+        <div class="modal">
+            <div class="modal__close"><span class="modal__close-x"></span></div>
+            <br />
+            <br />
+            <header class="modal__header">
+                <h2 class="modal__name"></h2>
+                <p class="modal__id"></p>
+            </header>
+            <div class="modal__container-picture">
+                <img src=""
+                    alt="pokemon" title="ROARR">
+            </div>
+            <div class="modal__container-types">                
+            </div>
+            <div class="modal__container-stats">
+                <h3 class="modal__subtitle">Status</h3>
+                <div class="modal__stats">
+                    <p class="modal__stat">HP</p>
+                    <p class="modal__point" ></p>
+                    <span class="modal__percentage"><span class="modal__percentage--filling" data-pokemon="bar-hp"></span></span></span>
+                    <p class="modal__point">MAX</p>
+                </div>
+                <div class="modal__stats">
+                    <p class="modal__stat">Attack</p>
+                    <p class="modal__point" ></p>
+                    <span class="modal__percentage"><span class="modal__percentage--filling" data-pokemon="bar-attack"></span></span>
+                    <p class="modal__point">MAX</p>
+                </div>
+                <div class="modal__stats">
+                    <p class="modal__stat">Defense</p>
+                    <p class="modal__point" ></p>
+                    <span class="modal__percentage"><span class="modal__percentage--filling" data-pokemon="bar-defense"></span></span>
+                    <p class="modal__point">MAX</p>
+                </div>
+                <div class="modal__stats">
+                    <p class="modal__stat">Sp. Attack</p>
+                    <p class="modal__point" ></p>
+                    <span class="modal__percentage"><span class="modal__percentage--filling" data-pokemon="bar-spAttack"></span></span>
+                    <p class="modal__point">MAX</p>
+                </div>
+                <div class="modal__stats">
+                    <p class="modal__stat">Sp. Defense</p>
+                    <p class="modal__point" ></p>
+                    <span class="modal__percentage"><span class="modal__percentage--filling" data-pokemon="bar-spDefense"></span></span>
+                    <p class="modal__point">MAX</p>
+                </div>
+                <div class="modal__stats">
+                    <p class="modal__stat">Speed</p>
+                    <p class="modal__point" ></p>
+                    <span class="modal__percentage"><span class="modal__percentage--filling" data-pokemon="bar-spDefense"></span></span>
+                    <p class="modal__point">MAX</p>
+                </div>
+            </div>
+        </div>
+    </div>
     <div id="container">
         <header id="pageheader">
             <div id="ph__container">
                 <img src="./assets/img/logo.png" alt="pokedex" id="ph__logo">
                 <h1 id="ph__title">Pokédex</h1>
+                
             </div>
         </header>
 
         <main id="containermain">
             <section id="pokemonscontainer">
+                <h2 id="pc__title">Pokémon</h2>
                 <ul id="pc__list">
 
                     <!-- All the pokemons have been created at ./assets/js/dom.js -->
