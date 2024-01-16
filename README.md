@@ -1,9 +1,3 @@
-<style>
-  .redondo{
-    border-radius: 50%;
-  }
-</style>
-
 # Pokedex
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/raismel/pokedex?style=for-the-badge)
