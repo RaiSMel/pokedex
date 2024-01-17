@@ -44,7 +44,10 @@ dom.closeModal = () => {
 
 dom.showModal = () => {
     const modal = document.querySelector('#container-modal');
-    modal.style = `display: flex;`;
+    modal.style = `
+        display: flex;
+        top: ${window.scrollY}px;
+    `;
 }
 
 dom.checkKey = (e)  => {
