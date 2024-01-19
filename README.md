@@ -52,7 +52,7 @@ As a alternative, consult the docs on github [How to create a pull request](http
 
 ## 🤝 Collaborators
 
-Appreciate the collaboratos of the project :
+We appreciate the following persons that help to build this project: 
 
 
 <table>
